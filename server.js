@@ -13,8 +13,13 @@ const app = express();
 const server = http.createServer(app);
 
 // CORS
-const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN || '*';
-app.use(cors({ origin: ALLOW_ORIGIN }));
+const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN || ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'https://your-frontend-domain.vercel.app'];
+app.use(cors({ 
+  origin: ALLOW_ORIGIN,
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 app.use(express.json());
 
 // Optional Mongo (fallback to in-memory/json file)
