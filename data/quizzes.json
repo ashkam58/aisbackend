@@ -1,0 +1,159 @@
+{
+  "quizzes": [
+    {
+      "id": "math-1",
+      "title": "Quick Math Warm\u2011up",
+      "questions": [
+        {
+          "q": "5 + 7 = ?",
+          "choices": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "answer": 2,
+          "hint": "Think pairs that sum to 12."
+        },
+        {
+          "q": "9 \u2212 4 = ?",
+          "choices": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": 2,
+          "hint": "Counting backwards from 9, four steps."
+        },
+        {
+          "q": "3 \u00d7 6 = ?",
+          "choices": [
+            "12",
+            "15",
+            "18",
+            "21"
+          ],
+          "answer": 2,
+          "hint": "3 groups of 6."
+        }
+      ]
+    },
+    {
+      "id": "logic-1",
+      "title": "Pattern & Logic",
+      "questions": [
+        {
+          "q": "What comes next: 2, 4, 8, 16, ...",
+          "choices": [
+            "18",
+            "20",
+            "24",
+            "32"
+          ],
+          "answer": 3,
+          "hint": "Doubling sequence."
+        },
+        {
+          "q": "Odd one out: \ud83d\udc36, \ud83d\udc31, \ud83d\udc2d, \ud83e\udd55",
+          "choices": [
+            "\ud83d\udc36",
+            "\ud83d\udc31",
+            "\ud83d\udc2d",
+            "\ud83e\udd55"
+          ],
+          "answer": 3,
+          "hint": "Three are animals."
+        }
+      ]
+    },
+    {
+      "id": "parallel-lines-6",
+      "title": "Parallel Lines & Transversals (Grade 6)",
+      "questions": [
+        {
+          "q": "In two parallel lines cut by a transversal, corresponding angles are ...",
+          "choices": ["Equal", "Supplementary", "Complementary", "Always 90°"],
+          "answer": 0,
+          "hint": "Think matching corners (C-rule)."
+        },
+        {
+          "q": "Alternate interior angles are ...",
+          "choices": ["Equal", "Supplementary", "Complementary", "Right angles"],
+          "answer": 0,
+          "hint": "Z-pattern: zig-zag across the transversal."
+        },
+        {
+          "q": "Same-side interior (co-interior) angles always ...",
+          "choices": ["Add to 90°", "Add to 180°", "Are equal", "Are vertical angles"],
+          "answer": 1,
+          "hint": "U-pattern: the two inside angles form a straight line."
+        },
+        {
+          "q": "Vertically opposite angles are ...",
+          "choices": ["Equal", "Supplementary", "Complementary", "Unequal"],
+          "answer": 0,
+          "hint": "They face each other at an intersection."
+        },
+        {
+          "q": "If ∠A = 70°, its corresponding angle is ...",
+          "choices": ["110°", "70°", "20°", "90°"],
+          "answer": 1,
+          "hint": "Corresponding angles are equal when lines are parallel."
+        },
+        {
+          "q": "If ∠B = 65°, the alternate interior angle equals ...",
+          "choices": ["115°", "65°", "35°", "90°"],
+          "answer": 1,
+          "hint": "Alternate interior angles are equal."
+        },
+        {
+          "q": "One same-side interior angle is 112°. The other same-side interior angle is ...",
+          "choices": ["68°", "112°", "78°", "52°"],
+          "answer": 0,
+          "hint": "Co-interior pair sums to 180°."
+        },
+        {
+          "q": "Which statement can be used to prove two lines are parallel?",
+          "choices": [
+            "A pair of corresponding angles are equal",
+            "One angle is 90°",
+            "A pair of vertical angles are equal",
+            "The lines look parallel"
+          ],
+          "answer": 0,
+          "hint": "Use the converse of an angle theorem."
+        },
+        {
+          "q": "A transversal makes exterior angles of 48° and 132°. Are the lines parallel?",
+          "choices": [
+            "Yes, because 48° and 132° are vertical",
+            "Yes, because 48° and 132° are supplementary",
+            "No, because alternate exterior should be equal",
+            "Not enough information"
+          ],
+          "answer": 2,
+          "hint": "Alternate exterior angles must match for parallel lines."
+        },
+        {
+          "q": "If ∠1 = 98°, what is the measure of its vertically opposite angle?",
+          "choices": ["82°", "98°", "102°", "90°"],
+          "answer": 1,
+          "hint": "Vertical angles are equal."
+        },
+        {
+          "q": "At one intersection an acute angle is 35°. Which is the measure of an adjacent angle at the same intersection?",
+          "choices": ["145°", "35°", "70°", "115°"],
+          "answer": 0,
+          "hint": "Adjacent angles on a straight line are supplementary."
+        },
+        {
+          "q": "Fill the blank: If corresponding angles are equal, then the lines are ____.",
+          "choices": ["Perpendicular", "Skew", "Parallel", "Coincident"],
+          "answer": 2,
+          "hint": "Converse of the corresponding angles theorem."
+        }
+      ]
+    }
+  ]
+}
