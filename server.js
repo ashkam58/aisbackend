@@ -13,7 +13,7 @@ const app = express();
 const server = http.createServer(app);
 
 // CORS
-const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN ? process.env.ALLOW_ORIGIN.split(',') : ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'https://your-frontend-domain.vercel.app'];
+const ALLOW_ORIGIN = process.env.ALLOW_ORIGIN ? process.env.ALLOW_ORIGIN.split(',') : ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'https://aisfrontend.vercel.app/'];
 app.use(cors({ 
   origin: true,
   credentials: true,
